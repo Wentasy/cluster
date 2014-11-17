@@ -1,6 +1,6 @@
 #!/bin/bash
-#Author:Larry Wen
-#Desc:IncreBackup databases's file
+#Author:Robin Wen
+#Desc:IncreBackup databases's file. Use this script in RHEL 6.1.
 
 IP=192.168.139.13
 SOURCEDIR=/var/lib/mysql-cluster

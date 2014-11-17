@@ -1,7 +1,8 @@
 #!/bin/bash
-#Author:Larr yWen
+#Author:Robin yWen
 #Date:2013- 9- 14 11:07:25
-#Func:Analyze  /var/log/httpd/access_log
+#Func:Analyze /var/log/httpd/access_log to avoid dos attack. Use this script in RHEL 6.1.
+
 while  :
 do
 	count=`cat /var/log/httpd/access_log | awk '{print $1}' | sort | sort  - n| uniq  - c | awk - F" " '{print  $1}'`

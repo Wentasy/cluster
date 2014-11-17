@@ -1,6 +1,6 @@
 #!/bin/bash
-#Author:Larry Wen
-#Desc:Backup databases
+#Author:Robin Wen
+#Desc:Backup MySQL databases. Use this script in RHEL 6.1.
 
 IP=192.168.139.13
 BACKUPDIR=/backup
