@@ -46,5 +46,5 @@ DNS服务器(bind)、时间同步服务器(xinetd)、LVS服务器、Web服务器
 
 * Robin Wen
 * Gmail：dbarobinwen@gmail.com
-* CSDN：http://blog.csdn.net/justdb
+* Blog：http://dbarobin.com
 * GitHub：https://github.com/dbarobin
